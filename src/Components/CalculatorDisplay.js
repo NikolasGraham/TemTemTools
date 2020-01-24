@@ -50,6 +50,7 @@ const CalculatorDisplay = () => {
 
     return (
         <div style={{color: "white"}}>
+            <h2>TemTem Typing Calculator</h2>
             <h5>TypeOne: {TypeCalc.typeOne ? TypeCalc.typeOne.name : "?"}   TypeTwo: {TypeCalc.typeTwo !== undefined ? TypeCalc.typeTwo.name : "?"}</h5>
             <h4>{typeDisplay ? typeDisplay : "..."}</h4>
             <Button onClick={() => {
