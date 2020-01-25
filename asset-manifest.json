@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/TemTemTools/static/css/main.b64d7a5c.chunk.css",
+    "main.js": "/TemTemTools/static/js/main.4dd11720.chunk.js",
+    "main.js.map": "/TemTemTools/static/js/main.4dd11720.chunk.js.map",
+    "runtime-main.js": "/TemTemTools/static/js/runtime-main.c6587e3b.js",
+    "runtime-main.js.map": "/TemTemTools/static/js/runtime-main.c6587e3b.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/TemTemTools/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.39af42fa.chunk.js": "/TemTemTools/static/js/2.39af42fa.chunk.js",
+    "static/js/2.39af42fa.chunk.js.map": "/TemTemTools/static/js/2.39af42fa.chunk.js.map",
+    "index.html": "/TemTemTools/index.html",
+    "precache-manifest.4a3e770c5a1c7311bd97157ed8ad3c13.js": "/TemTemTools/precache-manifest.4a3e770c5a1c7311bd97157ed8ad3c13.js",
+    "service-worker.js": "/TemTemTools/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/TemTemTools/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.b64d7a5c.chunk.css.map": "/TemTemTools/static/css/main.b64d7a5c.chunk.css.map",
+    "static/js/2.39af42fa.chunk.js.LICENSE": "/TemTemTools/static/js/2.39af42fa.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6587e3b.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.39af42fa.chunk.js",
+    "static/css/main.b64d7a5c.chunk.css",
+    "static/js/main.4dd11720.chunk.js"
+  ]
+}
