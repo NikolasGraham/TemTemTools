@@ -94,7 +94,7 @@ export const useTypeCalculator = () => {
             wind: 1,
             digital: 1,
             melee: 1,
-            crystal: 1,
+            crystal: 0.5,
             toxic: 1
         },
         water: {
