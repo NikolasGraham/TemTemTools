@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import HomePage from "./Views/HomePage";
+import Routing from "./Containers/__Routing/Routing";
 
 function App() {
   return (
     <div className="App">
-      <HomePage/>
+      <Routing/>
     </div>
   );
 }

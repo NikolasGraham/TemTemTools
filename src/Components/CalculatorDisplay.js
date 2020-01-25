@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {Button, Input} from "reactstrap";
 import {useTypeCalculator} from "../Hooks/useTypeCalculator";
+import PrimaryFooter from "../Containers/Header-Footer-Taskbar/PrimaryFooter";
 
 const CalculatorDisplay = () => {
 
@@ -49,7 +50,7 @@ const CalculatorDisplay = () => {
     };
 
     return (
-        <div style={{color: "white"}}>
+        <div style={{color: "white", backgroundColor: "black"}}>
             <h2>TemTem Typing Calculator</h2>
             <h5>TypeOne: {TypeCalc.typeOne ? TypeCalc.typeOne.name : "?"}   TypeTwo: {TypeCalc.typeTwo !== undefined ? TypeCalc.typeTwo.name : "?"}</h5>
             <h4>{typeDisplay ? typeDisplay : "..."}</h4>
@@ -94,6 +95,7 @@ const CalculatorDisplay = () => {
             <br />
             <Button style={{backgroundColor: "#330033"}} color="primary" onClick={() => TypeCalc.setTypeOne(TypeCalc.defendingBonus.toxic)}>TypeOne: Toxic</Button>
             <Button style={{backgroundColor: "#330033"}} color="secondary" onClick={() => TypeCalc.setTypeTwo(TypeCalc.defendingBonus.toxic)}>TypeTwo: Toxic</Button>
+            <PrimaryFooter/>
         </div>
     )
 

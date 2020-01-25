@@ -1,5 +1,5 @@
 import React from 'react';
-import CalculatorDisplay from "../Components/CalculatorDisplay";
+import CalculatorDisplay from "../../Components/CalculatorDisplay";
 
 const HomePage = () => {
 
