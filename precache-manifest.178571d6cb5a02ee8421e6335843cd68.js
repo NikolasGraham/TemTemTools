@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af6619d5fb4776593e8c189c4e889f36",
+    "revision": "582dd04575aeca2ec0cced395f7700a1",
     "url": "/TemTemTools/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TemTemTools/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "a47ab85d5bb4214b2dd1",
+    "revision": "abb8c0168eff7376c771",
     "url": "/TemTemTools/static/css/main.b64d7a5c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TemTemTools/static/js/2.0b07e816.chunk.js.LICENSE"
   },
   {
-    "revision": "a47ab85d5bb4214b2dd1",
-    "url": "/TemTemTools/static/js/main.852afdbb.chunk.js"
+    "revision": "abb8c0168eff7376c771",
+    "url": "/TemTemTools/static/js/main.45e77367.chunk.js"
   },
   {
     "revision": "49470e90d1f3233da9f3",
