@@ -5,8 +5,8 @@ import CalculatorDisplay from "./Components/CalculatorDisplay";
 
 function App() {
   return (
-    <div className="App">
-      <CalculatorDisplay/>
+    <div className="App" >
+      <CalculatorDisplay class="col-xs-9 col-md-7"/>
     </div>
   );
 }

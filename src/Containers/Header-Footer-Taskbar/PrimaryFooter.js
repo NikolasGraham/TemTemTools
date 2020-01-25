@@ -21,7 +21,7 @@ const PrimaryFooter = () => {
     };
 
     return(
-        <div>
+        <div class="col-xs-9 col-md-7">
             <div style={phantom} />
             <div style={style}>
                 <a>Nikolas Graham 2020 - This is a fan made site completely unaffiliated with TemTem or Crema</a>

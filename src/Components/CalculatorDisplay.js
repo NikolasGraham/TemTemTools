@@ -50,7 +50,7 @@ const CalculatorDisplay = () => {
     };
 
     return (
-        <div style={{color: "white", backgroundColor: "black"}}>
+        <div style={{color: "white", backgroundColor: "black"}} >
             <h2>TemTem Typing Calculator</h2>
             <h5>TypeOne: {TypeCalc.typeOne ? TypeCalc.typeOne.name : "?"}   TypeTwo: {TypeCalc.typeTwo !== undefined ? TypeCalc.typeTwo.name : "?"}</h5>
             <h4>{typeDisplay ? typeDisplay : "..."}</h4>
@@ -58,10 +58,15 @@ const CalculatorDisplay = () => {
                 setTypeDisplay("")
                 TypeCalc.setTypeOne();
                 TypeCalc.setTypeTwo();
-            }}>Clear</Button>
+            }}>Clear Both</Button>
+            <Button onClick={() => {
+                setTypeDisplay("")
+                TypeCalc.setTypeTwo();
+            }}>Clear TypeTwo</Button>
+            <Button color="danger" onClick={() => setText()}>Calculate</Button>
+            <br />
             <Button style={{backgroundColor: "lightGrey"}} color="primary" onClick={() => TypeCalc.setTypeOne(TypeCalc.defendingBonus.neutral)}>TypeOne: Neutral</Button>
             <Button style={{backgroundColor: "lightGrey"}} color="secondary" onClick={() => TypeCalc.setTypeTwo(TypeCalc.defendingBonus.neutral)}>TypeTwo: Neutral</Button>
-            <Button color="danger" onClick={() => setText()}>Calculate</Button>
             <br />
             <Button style={{backgroundColor: "#ff726f"}} color="primary" onClick={() => TypeCalc.setTypeOne(TypeCalc.defendingBonus.fire)}>TypeOne: Fire</Button>
             <Button style={{backgroundColor: "#ff726f"}} color="secondary" onClick={() => TypeCalc.setTypeTwo(TypeCalc.defendingBonus.fire)}>TypeTwo: Fire</Button>
