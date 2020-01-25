@@ -7,9 +7,9 @@ This is in no way affiliated with the company or game, just a fan's project.
 
 **Note**
 -----
-Master is not used.
-Dev is my current development work.
-Prod is fit for production and deployment.
+``Master is not used.``
+``Dev is my current development work.``
+``Prod is fit for production and deployment.``
 
 **Currently Contains**
 -----
