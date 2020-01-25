@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
 import Routing from "./Containers/__Routing/Routing";
+import CalculatorDisplay from "./Components/CalculatorDisplay";
 
 function App() {
   return (
     <div className="App">
-      <Routing/>
+      <CalculatorDisplay/>
     </div>
   );
 }
